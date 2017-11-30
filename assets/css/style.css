@@ -1,0 +1,107 @@
+body {
+	margin-top: 4%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-image: url(https://studybreaks.com/wp-content/uploads/2017/10/record-store-day-vinyls.jpg);
+	background-attachment: stretch;
+    background-position: center; 
+
+}
+
+p {
+	font-size: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #5b331a;
+	background-color: #663300;
+	margin-top: 10px;
+	margin-bottom: 10px; 
+	background-color: white;
+	opacity: .85;
+	border: 3px solid #663300;
+}
+
+
+.logo-display {
+	display: flex;
+	float: center;
+	align-items: center;
+	width: 30%;
+}
+
+
+.time-display {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	width: 40%;
+	font-family: Score, monospace;
+	margin-top: 10px;
+	border: 4px	outset DimGrey;
+}
+
+.timer-text {
+	color: #FF5324;
+	background-color: black;
+	font-size: 2em;
+	letter-spacing: 2px;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 0px;
+
+}
+
+.timer {
+	height: 90px;
+	color: white;
+	font-size: 5em;
+	padding-left: 10px;
+	padding-bottom: 10px;
+
+}
+
+.info-container {
+	display: flex;
+	float:center;
+	align-items: center;
+	background: #663300;
+	border: 3px solid white;
+	opacity: .75;
+}
+
+.question {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 10px;
+	align-content: center;
+	height: 40%;
+}
+
+.answer-buttons {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+}
+.button {
+	display:flex;
+	cursor:pointer;
+	float: center;
+	text-align: center;
+	height: 60px;
+	width: 80%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	opacity: 90%;
+	color: white;
+	border: 3px solid white;
+}
+
+.button:hover{
+	background-color: black;
+}
